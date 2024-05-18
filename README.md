@@ -10,3 +10,4 @@ In the mobile app, Flutter had a rich set of packages that helped a lot, i used 
 <img src="https://github.com/sekkoum-oussama/Twitter-like-Mobile-App-Flutter-/assets/69439465/8fc051ec-d4ee-4ecc-a522-1a4e219523e5" alt="Screenshot 3" width="400">
 <img src="https://github.com/sekkoum-oussama/Twitter-like-Mobile-App-Flutter-/assets/69439465/7e1f3b9c-18c5-4501-ba17-db2e7d93fcd5" alt="Screenshot 4" width="400">
 <img src="https://github.com/sekkoum-oussama/Twitter-like-Mobile-App-Flutter-/assets/69439465/12d5884c-cee2-4286-80ef-1a732aaaa045" alt="Screenshot 5" width="400">
+<img src="https://github.com/sekkoum-oussama/Twitter-like-Mobile-App-Flutter-/assets/69439465/3674cbf4-bf34-4e4c-a881-51b7190bb517" alt="Screenshot 6" width="400">
