@@ -1,16 +1,5 @@
-# twitter_demo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+As a back-end & Mobile developer, i wanted to design and implement a system from start to finish, from conceptualization to writing code, so i picked the twitter app(now X) ,the back-end is developed using Django and Django Rest Framework, the mobile app is developed using Flutter.
+the app has : authentication, users registration, email confirmation, password reset, profile updating, adding, deleting, liking, unliking, quoting, retweeting and replying to tweets, the user can upload photos or videos either from storage or using device's camera, a user can also follow and unfollow other users.
+In the back-end, the authentication was handled using both "allauth" and "dj-rest-auth" packages, i also used "debug_toolbar" to debug each request and especially SQL queries.
+About SQL queries: when requesting tweets, there were more than 1000 queries performed, and after using some Django's ORM optimizations methods, i managed to reduce it to only 8 queries.
+In the mobile app, Flutter had a rich set of packages that helped a lot, i used "flutter_secure_storage" to securely store sensitive data like token and refresh token, i used "shared_preferences" to store user information, the "camera" package to handle picking images and videos, and have more control over the camera options, "flutter_form_builder" to handle form validation, "photo_manager" to access and display photos and videos the way i wanted, "flutter_bloc"for state management.
